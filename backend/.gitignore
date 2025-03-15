@@ -1,0 +1,15 @@
+# Ignore the virtual environment inside the backend folder
+venv/
+
+# Python-related ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db

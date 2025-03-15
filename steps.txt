@@ -1,0 +1,46 @@
+1) simple backend crud api -> done
+2) databse connection -> done
+
+3) autentication -> pending
+
+4) forntend -> pending
+
+5) Docker file and containerrization -> pending
+6) Env setup for toekn and mongo uri or other variables -> pending
+
+7) Kafka, Redis connection setup -> pending
+8) Proper Logging integration -> pending
+
+9) Custom Exception handling -> pending
+10) Sentry logging enable -> pending
+
+11) Seprate services for, Authentication, TODO, User management.
+
+12) Nginx setup as APi Gateway. (rate limiting, Autnetication, Api Gateway)
+
+This should be completed in configured way so while creating other projects or services. No need to folow the same steps.
+
+Tech: Python, Node, React, MongoDb, Kafka, Redis, Docker, Kuberentes, Nginx
+
+Can be extended to -> Solr/ElasticSearch, Cloud services, Transaction(MySql)
+
+
+
+
+
+
+
+
+# rapidClaims
+
+1) Aggregator like stpe functions in AWS.
+2) Deplloyment strategy: Red, Black. How dpeloyment can be done without down time.
+   -> How to transfe few users to new code.
+3) Writing framework for web-scrapping.
+  -> How to divind task to different bots or in parallel.
+     -> Scrapping multiple websites (having url configured) (collection create: put the url configuration there, with status)
+     -> Bot takes urls and trigger different messages from all the urls.(service) (parcular queue)
+     -> Queue having multiple consumers listning to it. they will take urls and fetch data
+     -> send the fetch dta to another queue (patient queue)
+     -> Actual data for that particular user will be fetched and send to a end point where it will be saved in db.
+     
